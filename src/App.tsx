@@ -48,7 +48,7 @@ const AnimatedLink = ({
     ...props
 }: {
     href: string;
-    children: React.ReactNode;
+    children?: React.ReactNode;
     className?: string;
     icon?: React.ComponentType<React.SVGProps<SVGSVGElement>>;
     [key: string]: any; // Allow other props like target, rel, etc.
